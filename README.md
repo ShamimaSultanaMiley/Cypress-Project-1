@@ -33,6 +33,35 @@ Before you begin, make sure you have the following prerequisites installed on yo
 - [Node.js](https://nodejs.org/)
 - [Cypress](https://www.cypress.io/)
 
+**Note**: This project is designed to work with Cypress versions less than 10.
+## Running Tests
+
+To run the Cypress tests, follow these steps:
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/ShamimaSultanaMiley/Cypress-Project-1.git
+   ```
+
+2. Change into the project directory:
+
+   ```bash
+   cd cypress-cura-healthcare
+   ```
+
+3. Install the project dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Run Cypress with the following command:
+
+   ```bash
+   npx cypress open
+   ```
+
 
 
 
