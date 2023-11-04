@@ -8,8 +8,8 @@ This repository contains end-to-end (E2E) tests for the CURA Healthcare Center w
 - [Project Overview](#project-overview)
 - [Test Report](#Test-Report)
 - [Prerequisit](#Prerequisit)
-- [Running Tests](#running-tests)
-- [Customization](#customization)
+- [Running Tests](#Running-Tests)
+- [Customization](#Customization)
 
 ## Project Overview
 
@@ -74,7 +74,7 @@ cypress run --env baseUrl="https://katalon-demo-cura.herokuapp.com/" --spec cypr
 ```
 
 This command will run your Cypress tests in the Edge browser, using the specified test file and base URL.
-```
+
 
 ## Customization
 
