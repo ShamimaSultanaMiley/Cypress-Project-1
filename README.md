@@ -6,7 +6,7 @@ This repository contains end-to-end (E2E) tests for the CURA Healthcare Center w
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Test Report](#Test_Report)
+- [Test Report](#Test-Report)
 - [Prerequisit](#Prerequisit)
 - [Running Tests](#running-tests)
 - [Customization](#customization)
@@ -55,12 +55,30 @@ To run the Cypress tests, follow these steps:
    ```bash
    npm install
    ```
-
-4. Run Cypress with the following command:
+4. **Install Mocha and Mocha-Awesome**: Install Mocha and Mocha-Awesome as development dependencies for this project:
 
    ```bash
-   npx cypress open
+   npm install mocha mocha-awesome --save-dev
    ```
+
+5. **Adjust PowerShell Execution Policy**: Set the PowerShell execution policy to "RemoteSigned" to allow script execution by running the following command in an elevated PowerShell session:
+
+   ```powershell
+   Set-ExecutionPolicy RemoteSigned
+   ```
+
+6. you can run the tests using the following command:
+
+```bash
+cypress run --env baseUrl="https://katalon-demo-cura.herokuapp.com/" --spec cypress\integration\examples\cura.spec.js --browser=edge
+```
+
+This command will run your Cypress tests in the Edge browser, using the specified test file and base URL.
+```
+
+## Customization
+
+You can customize the tests or Cypress configuration to suit your specific needs. Feel free to modify the test scripts in the test files or update the `cypress.json` configuration file.
 
 
 
