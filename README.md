@@ -21,8 +21,8 @@ Tasks Done
 - **Appointment Booking**: Automating the process of making an appointment.
 - **Confirmation**: Confirming and validating appointments.
 
-# Summary 
-The summary of all the tasks done for the CURA Healthcare Center websites is given below.
+# Test Report
+The test result of all the tasks done for the CURA Healthcare Center websites is given below.
 ![Summary image](report.JPG)
 
 
