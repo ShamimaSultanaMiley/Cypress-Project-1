@@ -21,9 +21,17 @@ Tasks Done
 - **Appointment Booking**: Automating the process of making an appointment.
 - **Confirmation**: Confirming and validating appointments.
 
-# Test Report
+## Test Report
 The test result of all the tasks done for the CURA Healthcare Center websites is given below.
+
 ![Summary image](report.JPG)
+
+## Prerequisit
+
+Before you begin, make sure you have the following prerequisites installed on your local machine:
+
+- [Node.js](https://nodejs.org/)
+- [Cypress](https://www.cypress.io/)
 
 
 
