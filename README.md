@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains end-to-end (E2E) tests for the CURA Healthcare Center web application using Cypress. These tests are designed to automate various scenarios  and ensure the functionality and reliability of the CURA Healthcare Center website.
+This repository contains end-to-end (E2E) tests for the CURA Healthcare Center web application using Cypress. These tests are designed to automate various scenarios and ensure the functionality and reliability of the [CURA Healthcare Center website](https://katalon-demo-cura.herokuapp.com).
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -55,7 +55,7 @@ To run the Cypress tests, follow these steps:
    ```bash
    npm install
    ```
-4. **Install Mocha and Mocha-Awesome**: Install Mocha and Mocha-Awesome as development dependencies for this project:
+4. Install Mocha and Mocha-Awesome as development dependencies for this project:
 
    ```bash
    npm install mocha mocha-awesome --save-dev
